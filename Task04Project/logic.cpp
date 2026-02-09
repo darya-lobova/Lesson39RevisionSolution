@@ -3,9 +3,13 @@
 string get_numbers_in_order(int n, int m) {
 	string result = "";
 
-	for (int i = n; i <= m; i++) {
+	int d = n > m? -1 : 1;
+
+	for (int i = n; i != m; i += d) {
 		result += to_string(i) + " ";
 	}
+
+	result += to_string(m);
 
 	return result;
 }
