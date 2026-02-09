@@ -90,5 +90,5 @@ void test12() {
     int n = 1;
     int m = -10;
     string expected = "1 -1 -3 -5 -7 -9";
-    print("test11", n, m, expected);
+    print("test12", n, m, expected);
 }
